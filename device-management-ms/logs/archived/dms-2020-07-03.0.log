@@ -1,0 +1,122 @@
+2020-07-03 13:43:29,834 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 13:43:30,022 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-03 13:43:30,632 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-07-03 13:43:30,716 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=a5039f18-83ea-393a-9078-98883a5888f1
+2020-07-03 13:43:30,799 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 13:43:30,800 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 13:43:30,800 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 13:43:30,801 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 13:43:30,915 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-07-03 13:43:30,919 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-03 13:43:30,919 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-03 13:43:30,920 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-07-03 13:43:30,991 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-03 13:43:30,991 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 961 ms
+2020-07-03 13:43:31,048 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-07-03 13:43:31,049 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-03 13:43:31,055 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@806996
+2020-07-03 13:43:31,635 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-03 13:43:31,637 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-03 13:43:31,688 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-03 13:43:31,715 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-03 13:43:31,831 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@740b6628, org.springframework.security.web.context.SecurityContextPersistenceFilter@799f916e, org.springframework.security.web.header.HeaderWriterFilter@11dcd42c, org.springframework.security.web.authentication.logout.LogoutFilter@3a4aadf8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6fe595dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21de60a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15d0d6c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27fe059d, org.springframework.security.web.session.SessionManagementFilter@162c1dfb, org.springframework.security.web.access.ExceptionTranslationFilter@42507640, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7730ef88]
+2020-07-03 13:43:31,839 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-07-03 13:43:31,839 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-03 13:43:32,484 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-07-03 13:43:32,491 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-03 13:43:32,553 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-07-03 13:43:32,575 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-07-03 13:43:32,760 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-07-03 13:43:32,760 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-07-03 13:43:32,826 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-07-03 13:43:32,826 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-07-03 13:43:32,926 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-07-03 13:43:33,003 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2020-07-03 13:43:33,003 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2020-07-03 13:43:33,003 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2020-07-03 13:43:33,003 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2020-07-03 13:43:33,004 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2020-07-03 13:43:33,004 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2020-07-03 13:43:33,004 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-07-03 13:43:33,098 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2020-07-03 13:43:33,099 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-07-03 13:43:33,101 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-03 13:43:33,103 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1593764013103 with initial instances count: 3
+2020-07-03 13:43:33,104 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application DEVICE-MANAGEMENT-SERVICE with eureka with status UP
+2020-07-03 13:43:33,105 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1593764013105, current=UP, previous=STARTING]
+2020-07-03 13:43:33,106 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DEVICE-MANAGEMENT-SERVICE/SEZT1FF195VIDYO.india.rsystems.com:device-management-service:8081: registering service...
+2020-07-03 13:43:33,106 DEBUG org.springframework.core.log.CompositeLog [main] clientOutboundChannel added SubProtocolWebSocketHandler[StompSubProtocolHandler[v10.stomp, v11.stomp, v12.stomp]]
+2020-07-03 13:43:33,107 DEBUG org.springframework.core.log.CompositeLog [main] clientInboundChannel added WebSocketAnnotationMethodMessageHandler[prefixes=[/app/]]
+2020-07-03 13:43:33,107 DEBUG org.springframework.core.log.CompositeLog [main] clientInboundChannel added UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2020-07-03 13:43:33,107 DEBUG org.springframework.core.log.CompositeLog [main] brokerChannel added UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2020-07-03 13:43:33,107 INFO org.springframework.core.log.CompositeLog [main] Starting...
+2020-07-03 13:43:33,107 DEBUG org.springframework.core.log.CompositeLog [main] clientInboundChannel added StompBrokerRelay[localhost:61613]
+2020-07-03 13:43:33,107 DEBUG org.springframework.core.log.CompositeLog [main] brokerChannel added StompBrokerRelay[localhost:61613]
+2020-07-03 13:43:33,123 INFO org.springframework.core.log.CompositeLog [main] Starting "system" session, StompBrokerRelay[ReactorNettyTcpClient[reactor.netty.tcp.TcpClientDoOn@100eeedc]]
+2020-07-03 13:43:33,124 DEBUG org.springframework.core.log.CompositeLog [main] Forwarding CONNECT session=_system_
+2020-07-03 13:43:33,125 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DEVICE-MANAGEMENT-SERVICE/SEZT1FF195VIDYO.india.rsystems.com:device-management-service:8081 - registration status: 204
+2020-07-03 13:43:33,185 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
+2020-07-03 13:43:33,289 INFO org.springframework.core.log.CompositeLog [main] Started.
+2020-07-03 13:43:33,298 DEBUG org.springframework.core.log.CompositeLog [tcp-client-loop-nio-1] Connected to localhost/127.0.0.1:61613
+2020-07-03 13:43:33,299 DEBUG org.springframework.core.log.CompositeLog [tcp-client-scheduler-3] TCP connection opened in session=_system_
+2020-07-03 13:43:33,326 DEBUG org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] Received CONNECTED heart-beat=[10000, 10000] session=_system_
+2020-07-03 13:43:33,327 INFO org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] "System" session connected.
+2020-07-03 13:43:33,328 INFO org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] BrokerAvailabilityEvent[available=true, StompBrokerRelay[ReactorNettyTcpClient[reactor.netty.tcp.TcpClientDoOn@100eeedc]]]
+2020-07-03 13:43:33,329 DEBUG org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] Subscribing to /topic/unresolved-user on "system" connection.
+2020-07-03 13:43:33,331 DEBUG org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] Subscribing to /topic/log-user-registry on "system" connection.
+2020-07-03 13:43:33,333 DEBUG org.springframework.core.log.CompositeLog [MessageBroker-1] Forwarding SEND /topic/log-user-registry session=_system_ application/json payload={"id":"10.50.247.21-69982d4e-30fe-4337-9ffd-56bb0c488822","userMap":{}}
+2020-07-03 13:43:33,361 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-07-03 13:43:33,363 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8081"]
+2020-07-03 13:43:33,363 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-07-03 13:43:33,363 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(3)-127.0.0.1] Unregistering application DEVICE-MANAGEMENT-SERVICE with eureka with status DOWN
+2020-07-03 13:43:33,364 WARN com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(3)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1593764013364, current=DOWN, previous=UP]
+2020-07-03 13:43:33,364 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DEVICE-MANAGEMENT-SERVICE/SEZT1FF195VIDYO.india.rsystems.com:device-management-service:8081: registering service...
+2020-07-03 13:43:33,365 DEBUG org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] clientOutboundChannel removed SubProtocolWebSocketHandler[StompSubProtocolHandler[v10.stomp, v11.stomp, v12.stomp]]
+2020-07-03 13:43:33,365 DEBUG org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] clientInboundChannel removed WebSocketAnnotationMethodMessageHandler[prefixes=[/app/]]
+2020-07-03 13:43:33,365 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] Stopping...
+2020-07-03 13:43:33,366 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] BrokerAvailabilityEvent[available=false, StompBrokerRelay[ReactorNettyTcpClient[reactor.netty.tcp.TcpClientDoOn@100eeedc]]]
+2020-07-03 13:43:33,378 WARN org.apache.juli.logging.DirectJDKLog [main] The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-07-03 13:43:33,379 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DEVICE-MANAGEMENT-SERVICE/SEZT1FF195VIDYO.india.rsystems.com:device-management-service:8081 - registration status: 204
+2020-07-03 13:43:33,379 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8081"]
+2020-07-03 13:43:33,380 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8081"]
+2020-07-03 13:43:33,381 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-03 13:43:33,393 DEBUG org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] TCP connection to broker closed in session _system_
+2020-07-03 13:43:33,393 DEBUG org.springframework.core.log.CompositeLog [tcp-client-scheduler-4] Cleaning up connection state for session _system_
+2020-07-03 13:43:35,465 DEBUG org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] clientInboundChannel removed StompBrokerRelay[ReactorNettyTcpClient[reactor.netty.tcp.TcpClientDoOn@100eeedc]]
+2020-07-03 13:43:35,465 DEBUG org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] brokerChannel removed StompBrokerRelay[ReactorNettyTcpClient[reactor.netty.tcp.TcpClientDoOn@100eeedc]]
+2020-07-03 13:43:35,465 INFO org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] Stopped.
+2020-07-03 13:43:35,465 DEBUG org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] clientInboundChannel removed UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2020-07-03 13:43:35,466 DEBUG org.springframework.core.log.CompositeLog [RMI TCP Connection(3)-127.0.0.1] brokerChannel removed UserDestinationMessageHandler[DefaultUserDestinationResolver[prefix=/user/]]
+2020-07-03 13:43:36,444 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(3)-127.0.0.1] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NoSuchMethodError: io.micrometer.core.instrument.binder.tomcat.TomcatMetrics.close()V
+2020-07-03 13:43:37,507 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(3)-127.0.0.1] Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-03 13:43:37,508 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(3)-127.0.0.1] Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-03 13:43:37,509 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(3)-127.0.0.1] Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-03 13:43:37,509 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(3)-127.0.0.1] Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-03 13:43:37,511 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(3)-127.0.0.1] Shutting down DiscoveryClient ...
+2020-07-03 13:43:40,513 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(3)-127.0.0.1] Unregistering ...
+2020-07-03 13:43:40,521 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(3)-127.0.0.1] DiscoveryClient_DEVICE-MANAGEMENT-SERVICE/SEZT1FF195VIDYO.india.rsystems.com:device-management-service:8081 - deregister  status: 200
+2020-07-03 13:43:40,526 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(3)-127.0.0.1] Completed shut down of DiscoveryClient
+2020-07-03 13:43:40,530 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
